@@ -1,0 +1,55 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+body, html
+	+reset()
+	font-size: 20px
+	line-height: 30px
+
+header
+	background-color: #dd5c5c
+
+.wrapper
+	+wrapper()
+	background-color: #2de7e7
+
+.menu
+	background-color: #ffffff
+	+row-flex()
+	// +lg(justify-content, center)
+	justify-content: center
+
+	&__link
+		margin: 0 20px
+		padding: 0
+		text-align: center
+		background-color: #d8e041
+		+size(2)
+		+size-sm(3)
+
+section
+	background-color: #ec7171
+
+.row
+	background-color: #e83333
+	+wrapper()
+
+.col
+	+row-flex()
+	justify-content: center
+
+.items
+	+col()
+	+size(8)
+	+size-sm(11)
+	+size-sm(12)
+
+.img-responsive
+	margin: 20px 0
+	+sm(margin, 0 0 20px)
+
+p
+	background-color: #ffffff
+	text-align: justify
+	margin: 0 20px
