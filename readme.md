@@ -3,8 +3,6 @@
 <p>Based on <a href="https://github.com/agragregra/optimizedhtml-start-template">OptimizedHTML</a>
 <p>"Web-Developer-Kit" is all-inclusive, optimized for Google PageSpeed start HTML5 template with Smart-grid node module, Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Group CSS media queries, Vinyl-FTP and Bower (libs path) support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
-<p>OptimizedHTML Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
-
 <p>Cross-browser compatibility: IE9+.</p>
 
 <p>The template uses a Sass with <strong>Sass</strong> syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
