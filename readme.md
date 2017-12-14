@@ -1,12 +1,7 @@
-<h1>OptimizedHTML - Start HTML Template</h1>
+<h1>Web-Developer-Kit</h1>
 
-<p>
-	<img src="https://raw.githubusercontent.com/agragregra/optimizedhtml-start-template/master/app/img/preview.jpg" alt="Start HTML Template">
-</p>
-
-<p>Author: <a href="http://webdesign-master.ru" target="_blank">WebDesign Master</a> | <a href="http://webdesign-master.ru/blog/tools/2016-08-19-optimizedhtml.html" target="_blank">Manual in Russian</a></p>
-
-<p>OptimizedHTML is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP and Bower (libs path) support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
+<p>Based on <a href="https://github.com/agragregra/optimizedhtml-start-template">OptimizedHTML</a>
+<p>"Web-Developer-Kit" is all-inclusive, optimized for Google PageSpeed start HTML5 template with Smart-grid node module, Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Group CSS media queries, Vinyl-FTP and Bower (libs path) support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
 <p>OptimizedHTML Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
 
@@ -14,10 +9,10 @@
 
 <p>The template uses a Sass with <strong>Sass</strong> syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
 
-<h2>How to use OptimizedHTML</h2>
+<h2>How to use Web-Developer-Kit</h2>
 
 <ol>
-	<li><a href="https://github.com/agragregra/optimizedhtml-start-template/archive/master.zip">Download</a> <strong>optimizedhtml-start-template</strong> from GitHub;</li>
+	<li>Clone or donwnload repository;</li>
 	<li>Install Node Modules: <strong>npm i</strong>;</li>
 	<li>Run the template: <strong>gulp</strong>.</li>
 </ol>
@@ -44,5 +39,4 @@
 	<li>All Sass vars placed in <strong>app/sass/_vars.sass</strong>;</li>
 	<li>All Bootstrap media queries placed in <strong>app/sass/_media.sass</strong>;</li>
 	<li>All jQuery libraries CSS styles placed in <strong>app/sass/_libs.sass</strong>;</li>
-	<li>Rename <strong>ht.access</strong> to <strong>.htaccess</strong> before place it in your web server. This file contain rules for files caching on web server.</li>
 </ol>
